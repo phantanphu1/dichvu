@@ -5,16 +5,16 @@
 .container{
   width: 100%;
   height: 100vh;
-  background-color:white;
+  background-color:wheat;
 }
-logo{
+.logo{
   margin-left: 20px;
   width: 10%;
   margin: 10px;
 }
-logo a { 
+.logo a { 
   text-decoration: none;
-  font-size: 25px;
+  font-size: 50px;
   }
 .menu{
   width: 100%;
@@ -22,33 +22,46 @@ logo a {
   display: flex;
   position: fixed;
 }
+
 .left a {
   text-decoration: none;
 }
 .left ul{
   list-style-type: none;
+  margin-top: 17px;
+
 }
 .left ul li{
   display: inline-block;
   margin: 0 20px;
   padding: 15px;
 }
-.menu{
-  display: flex;
-}
-/* .search{
-  margin-right: 2000px;
-  width: 300%;
+.search{
+  margin-top: 15px;
+  margin-right: 20px;
+  width: 25%;
   text-align: right;
 }
-search input{
+.search input{
   padding: 10px 5px;
   border-radius: 15px;
   border: none;
   outline: none;
-} */
+  margin-top: 5px;
+}
 .anh{
-  width: 20px;
-  margin-bottom: 20px;
-  margin-left: 200px;
+  /* width: 20px; */
+  /* margin-top: 2px; */
+  margin-left: 2px;
+}
+.centen{
+  display: flex;
+}
+.centen_right{
+width: px;
+margin-top: 350px;
+
+}
+.centen_right a{
+  font-size: 20px;
 }
