@@ -106,7 +106,7 @@ margin-top: 350px;
   height:100%;
 }
 .image{
-  width:50%;
+  width:400%;
   /* height:100%; */
 }
 .image img{
@@ -116,8 +116,8 @@ margin-top: 350px;
 
 /* Legend */
 .legend{
-  border:200px solid transparent;
-  border-left:679px solid rgba(52, 73, 94, .7);
+  border:500px solid transparent;
+  border-left:800px solid rgba(52, 73, 94, .7);
   border-bottom:0;
   position:absolute;
   bottom:0;
