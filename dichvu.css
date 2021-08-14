@@ -5,20 +5,22 @@
 .container{
   width: 100%;
   height: 100vh;
-  background-color:wheat;
+  background-color:white;
 }
 .logo{
+  /* height: 10px; */
   margin-left: 20px;
-  width: 10%;
+  width: 12%;
   margin: 10px;
 }
 .logo a { 
   text-decoration: none;
-  font-size: 50px;
+  font-size: 20px;
   }
 .menu{
   width: 100%;
-  background-color: rgb(245, 220, 230);
+  height: 60px;
+  background-color: rgb(243, 239, 240);
   display: flex;
   position: fixed;
 }
@@ -28,7 +30,7 @@
 }
 .left ul{
   list-style-type: none;
-  margin-top: 17px;
+  margin-top: 8px;
 
 }
 .left ul li{
@@ -47,11 +49,11 @@
   border-radius: 15px;
   border: none;
   outline: none;
-  margin-top: 5px;
+  /* margin-top: 1px; */
 }
 .anh{
-  /* width: 20px; */
-  /* margin-top: 2px; */
+  width: 20px; 
+  margin-top: 2px;
   margin-left: 2px;
 }
 .centen{
@@ -66,10 +68,6 @@ margin-top: 350px;
   font-size: 20px;
 }
 
-body{
-  min-width:900px;
-}
-/* Slider */
 #slider{
   width:100%;
   height:500px;
@@ -81,16 +79,19 @@ body{
   to{left:0;}
 }
 .slides{
+  margin-top: 60px;
   width:400%;
-  height:100%;
+  /* height:100%; */
   position:relative;
   -webkit-animation:slide 30s infinite;
   -moz-animation:slide 30s infinite;
   animation:slide 30s infinite;
 }
 .slider{
+  display: flex;
+
   width:25%;
-  height:100%;
+  /* height:10%; */
   float:left;
   position:relative;
   z-index:1;
@@ -105,8 +106,8 @@ body{
   height:100%;
 }
 .image{
-  width:100%;
-  height:100%;
+  width:50%;
+  /* height:100%; */
 }
 .image img{
   width:100%;
@@ -115,8 +116,8 @@ body{
 
 /* Legend */
 .legend{
-  border:500px solid transparent;
-  border-left:800px solid rgba(52, 73, 94, .7);
+  border:200px solid transparent;
+  border-left:679px solid rgba(52, 73, 94, .7);
   border-bottom:0;
   position:absolute;
   bottom:0;
@@ -129,9 +130,11 @@ body{
   position:absolute;
   overflow:hidden;
 }
+
 .content-txt{
-  width:400px;
-  height:150px;
+  margin-left: 30px;
+  width:300px;
+  /* height:150px; */
   float:left;
   position:relative;
   top:300px;
@@ -139,11 +142,12 @@ body{
   -moz-animation:content-s 7.5s infinite;
   animation:content-s 7.5s infinite;
 }
+
 .content-txt h1{
   font-family:Arial;
   text-transform:uppercase;
   font-size:24px;
-  color:#fff;
+  color:rgb(247, 60, 60);
   text-align:left;
   margin-left:30px;
   padding-bottom:10px;
@@ -153,13 +157,14 @@ body{
   font-weight:normal;
   font-size:14px;
   font-style:italic;
-  color:#fff;
+  color:rgb(247, 60, 60);
   text-align:left;
   margin-left:30px;
 }
 
 /* Switch */
 .switch{
+  margin-left: 30px;
   width:120px;
   height:10px;
   position:absolute;
